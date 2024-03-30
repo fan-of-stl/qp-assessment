@@ -1,0 +1,30 @@
+{
+  "name": "grocery_api",
+  "version": "1.0.0",
+  "description": "Application for grocery API's",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "pg": "^8.11.3",
+    "typeorm": "^0.3.20",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
